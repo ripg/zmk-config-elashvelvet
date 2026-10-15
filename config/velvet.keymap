@@ -19,6 +19,11 @@
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
+&lt {
+    tapping-term-ms = <100>;
+    flavor = "hold-preferred";
+};
+
 &msc {
     acceleration-exponent = <1>;      // 0
     time-to-max-speed-ms = <100>;       // 300
